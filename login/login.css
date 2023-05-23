@@ -20,6 +20,7 @@ html, body {
 }
 
 .leftHalf {
+    position: relative;
     background-color: blueviolet;
     width: 50%;
     height: 100%;
@@ -114,16 +115,30 @@ ul.ul4 {
 }
 
 #div1 {
-    height: 20%;
-    width: 100%;
+    /* height: 20%;
+    width: 100%; */
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #div2 {
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
-    height: 65%;
+    /* height: 65%; */
     padding-bottom: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+#div4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 
