@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Login</title>
 </head>
 <body>
     <div class="flex h-screen">
         <div class="w-1/2 bg-purple-500 flex flex-col">
-            <div class="h-1/5">
+            <div class="h-1/5 mt-1">
                 <ul>
                     <li class="inline-block"><img src="D:\test\login\assets\icon1.png" class="h-1/4 w-1/4 sm:mt-2 md:mt-4 lg:mt-8 ml-4 max-w-full"></li>
                     <li class="text-base inline-block text-white">Untitled Ui</li>
@@ -39,8 +40,50 @@
 
             </div>
         </div>
-        <div class="w-1/2 bg-white">
-            
+        <div class="w-1/2 bg-white flex">
+            <div class="w-full flex flex-col justify-center items-centers">
+                <ul class="flex flex-col justify-center items-center pl-2">
+                    <li ><img src="D:\test\login\assets\icon1.png" class="h-20 w-20 pb-1 sm:mt-2 md:mt-4 lg:mt-8"></li>
+                    <li class="text-2xl font-semibold">Sign In</li>
+                    <li class="text-base text-gray-500">Welcome back! Please enter your details.</li>
+                    <li class="pt-1 pb-1">
+                        <form>
+                            <input type="text" placeholder="Email" class="border-b w-full border-gray-400 px-4 py-2 focus:outline-none ">
+                        </form>
+                    </li>
+                    <li class="pt-1 pb-1">
+                        <form>
+                            <input type="text" placeholder="Password" class="border-b w-full border-gray-400 px-4 py-2 focus:outline-none ">
+                        </form>
+                    </li>
+                    <li class="pt-1 pb-1 w-1/3 h-1/2">
+                        <form>
+                            <button class="bg-purple-500 text-white w-full h-full">
+                                Sign in
+                            </button>
+                        </form>
+                    </li>
+                    <li class="pt-1 pb-1 w-1/3 h-1/2">
+                        <form>
+                            <button class="flex items-center justify-center bg-white text-black w-full h-full py-2 px-4">
+                                <i class="fab fa-google text-lg mr-2"></i>
+                                <span>Sign in with Google</span>
+                              </button>
+                        </form>
+                    </li>
+                    <li class="pt-1 pb-1 w-1/3 h-1/2">
+                        <form>
+                            <button class="flex items-center justify-center bg-white text-black w-full h-full py-2 px-4">
+                                <i class="fab fa-apple text-lg mr-2 "></i>
+                                <span>Sign in with Apple ID</span>
+                              </button>
+                        </form>
+                    </li>
+                    <li>
+                        Need an account?&nbsp;<a class="font-bold" target="_blank" href="">Create an account</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
