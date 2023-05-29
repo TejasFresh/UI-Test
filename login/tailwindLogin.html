@@ -1,23 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Login</title>
 </head>
 <body>
     <div class="flex h-screen">
-        <div class="w-1/2 bg-purple-500">
-            <div>
+        <div class="w-1/2 bg-purple-500 flex flex-col">
+            <div class="h-1/5 mt-1">
                 <ul>
-                    
+                    <li class="flex"><img src="D:\test\login\assets\icon1.png" class="h-1/12 w-1/12 sm:mt-2 md:mt-4 lg:mt-4 ml-4 max-w-full"><p class="text-base sm:mt-2 md:mt-4 lg:mt-8 ml-2 text-white">Untitled UI</p></li>
+                    <!-- <li class="text-base inline-block text-white">Untitled Ui</li> -->
                 </ul>
             </div>
+            <div class="h-1/2 flex flex-col pt-1.5 justify-center items-center">
+                <p class="mt-10 text-xl text-center text-white">
+                    We've been using Untitled to kick start 
+                    every new project and can't imagine working without it
+                </p>
+                <ul class="flex flex-col items-center justify-center ">
+                    <li class="flex items-center justify-center"><img src="./assets/icon.png" class="w-1/4 sm:mt-4 md:mt-8 lg:mt-12 max-w-full h-auto "></li>
+                    <li class="mt-5 text-sm md:text-sm lg:text-sm text-center mb-4 lg:mb-0 lg:mr-4 text-white">Tejas Srinivas</li>
+                    <li class="mt-1 text-sm md:text-sm lg:text-sm text-center mb-4 lg:mb-0 lg:mr-4 text-white">Software Engineer - Intern</li>
+                    <li class="flex items-center justify-center mt-1">
+                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    </li>
+                </ul>
+            </div>
+            <div class="h-1/5">
+                <span class="absolute bottom-0 left-0 mt-8 text-sm text-white">&copy; Untitled Ui 2077</span>
+
+            </div>
         </div>
-        <div class="w-1/2 bg-white">
-            
+        <div class="w-1/2 bg-white flex">
+            <div class="w-full flex flex-col justify-center items-centers">
+                <ul class="flex flex-col justify-center items-center pl-2">
+                    <li ><img src="D:\test\login\assets\icon1.png" class="h-20 w-20 pb-1 sm:mt-2 md:mt-4 lg:mt-8"></li>
+                    <li class="text-2xl font-semibold">Sign In</li>
+                    <li class="text-base text-gray-500">Welcome back! Please enter your details.</li>
+                    <li class="pt-1 pb-1">
+                        <form>
+                            <input type="text" placeholder="Email" class="border-b w-full border-gray-400 px-4 py-2 focus:outline-none ">
+                        </form>
+                    </li>
+                    <li class="pt-1 pb-1">
+                        <form>
+                            <input type="text" placeholder="Password" class="border-b w-full border-gray-400 px-4 py-2 focus:outline-none ">
+                        </form>
+                    </li>
+                    <li class="pt-1 pb-1 w-1/3 h-1/2">
+                        <form>
+                            <button class="bg-purple-500 text-white w-full h-full">
+                                Sign in
+                            </button>
+                        </form>
+                    </li>
+                    <li class="pt-1 pb-1 w-1/3 h-1/2">
+                        <form>
+                            <button class="flex items-center justify-center bg-white text-black w-full h-full py-2 px-4">
+                                <i class="fab fa-google text-lg mr-2"></i>
+                                <span>Sign in with Google</span>
+                              </button>
+                        </form>
+                    </li>
+                    <li class="pt-1 pb-1 w-1/3 h-1/2">
+                        <form>
+                            <button class="flex items-center justify-center bg-white text-black w-full h-full py-2 px-4">
+                                <i class="fab fa-apple text-lg mr-2 "></i>
+                                <span>Sign in with Apple ID</span>
+                              </button>
+                        </form>
+                    </li>
+                    <li>
+                        Need an account?&nbsp;<a class="font-bold" target="_blank" href="">Create an account</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
