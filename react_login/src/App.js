@@ -9,7 +9,7 @@ function App() {
             <div className="h-1/5 mt-1">
                 <ul>
                     <li className="flex">
-                      <img src={logo} className="h-1/12 w-1/12 sm:mt-2 md:mt-4 lg:mt-4 ml-4 max-w-full"></img><p className="text-base sm:mt-2 md:mt-4 lg:mt-8 ml-2 text-white">Untitled UI</p></li>
+                      <img src={logo} alt="" className="h-1/12 w-1/12 sm:mt-2 md:mt-4 lg:mt-4 ml-4 max-w-full" ></img><p className="text-base sm:mt-2 md:mt-4 lg:mt-8 ml-2 text-white">Untitled UI</p></li>
                 </ul>
             </div>
             <div className="h-1/2 flex flex-col pt-1.5 justify-center items-center">
@@ -18,7 +18,7 @@ function App() {
                     every new project and can't imagine working without it
                 </p>
                 <ul className="flex flex-col items-center justify-center ">
-                    <li className="flex items-center justify-center"><img src={user} className="w-1/4 sm:mt-4 md:mt-8 lg:mt-12 max-w-full h-auto "></img></li>
+                    <li className="flex items-center justify-center"><img src={user} alt="" className="w-1/4 sm:mt-4 md:mt-8 lg:mt-12 max-w-full h-auto "></img></li>
                     <li className="mt-5 text-sm md:text-sm lg:text-sm text-center mb-4 lg:mb-0 lg:mr-4 text-white">Tejas Srinivas</li>
                     <li className="mt-1 text-sm md:text-sm lg:text-sm text-center mb-4 lg:mb-0 lg:mr-4 text-white">Software Engineer - Intern</li>
                     <li className="flex items-center justify-center mt-1">
@@ -38,7 +38,7 @@ function App() {
         <div className="w-1/2 bg-white flex">
             <div className="w-full flex flex-col justify-center items-centers">
                 <ul className="flex flex-col justify-center items-center pl-2">
-                    <li ><img src={logo} className="h-20 w-20 pb-1 sm:mt-2 md:mt-4 lg:mt-8"></img></li>
+                    <li ><img src={logo} alt="" className="h-20 w-20 pb-1 sm:mt-2 md:mt-4 lg:mt-8"></img></li>
                     <li className="text-2xl font-semibold">Sign In</li>
                     <li className="text-base text-gray-500">Welcome back! Please enter your details.</li>
                     <li className="pt-1 pb-1">
@@ -51,9 +51,9 @@ function App() {
                             <input type="text" placeholder="Password" className="border-b w-full border-gray-400 px-4 py-2 focus:outline-none " />
                         </form>
                     </li>
-                    <li className="pt-1 pb-1 w-1/3 h-1/2">
+                    <li className="pt-2 pb-1 w-1/3">
                         <form>
-                            <button className="bg-purple-500 text-white w-full h-full">
+                            <button className="bg-purple-500 text-white w-full h-9">
                                 Sign in
                             </button>
                         </form>
