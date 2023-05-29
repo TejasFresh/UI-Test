@@ -1,6 +1,8 @@
 import './App.css';
 import logo from './assets/icon1.png'
 import user from './assets/icon.png'
+import {TextField} from './textField';
+import { PurpButton, IcoButton } from './button';
 
 function App() {
   return (
@@ -43,35 +45,38 @@ function App() {
                     <li className="text-base text-gray-500">Welcome back! Please enter your details.</li>
                     <li className="pt-1 pb-1">
                         <form>
-                            <input type="text" placeholder="Email" className="border-b w-full border-gray-400 px-4 py-2 focus:outline-none " />
+                          <TextField
+                            placeholder="Email"
+                          />
                         </form>
                     </li>
                     <li className="pt-1 pb-1">
                         <form>
-                            <input type="text" placeholder="Password" className="border-b w-full border-gray-400 px-4 py-2 focus:outline-none " />
+                          <TextField
+                            placeholder="Password"
+                          />  
                         </form>
                     </li>
                     <li className="pt-2 pb-1 w-1/3">
                         <form>
-                            <button className="bg-purple-500 text-white w-full h-9">
-                                Sign in
-                            </button>
+                            <PurpButton text="Sign in">
+                            </PurpButton>
                         </form>
                     </li>
                     <li className="pt-1 pb-1 w-1/3 h-1/2">
                         <form>
-                            <button className="flex items-center justify-center bg-white text-black w-full h-full py-2 px-4">
-                                <i className="fab fa-google text-lg mr-2"></i>
-                                <span>Sign in with Google</span>
-                              </button>
+                          <IcoButton
+                            icon={<i className='fab fa-google'></i>}
+                            text="Sign in with Google">
+                          </IcoButton>
                         </form>
                     </li>
                     <li className="pt-1 pb-1 w-1/3 h-1/2">
                         <form>
-                            <button className="flex items-center justify-center bg-white text-black w-full h-full py-2 px-4">
-                                <i className="fab fa-apple text-lg mr-2 "></i>
-                                <span>Sign in with Apple ID</span>
-                              </button>
+                        <IcoButton
+                            icon={<i className='fab fa-apple'></i>}
+                            text="Sign in with Apple ID">
+                          </IcoButton>
                         </form>
                     </li>
                     <li>
